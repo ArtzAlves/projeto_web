@@ -30,14 +30,13 @@ Este projeto consiste em um site de e-commerce para a venda de drones e peças, 
 
 ```
 vendramico/
-├── html/
-│   ├── index.html
-│   ├── produtos.html
-│   ├── detalhes_produto.html
-│   ├── carrinho.html
-│   ├── checkout.html
-│   ├── contato.html
-│   └── sobre.html
+├── index.html
+├── produtos.html
+├── detalhes_produto.html
+├── carrinho.html
+├── checkout.html
+├── contato.html
+├── sobre.html
 ├── css/
 │   └── style.css
 ├── js/
