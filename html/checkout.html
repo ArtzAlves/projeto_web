@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendrâmico - Finalizar Compra</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Vendrâmico</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout">
+            <h1>Finalizar Compra</h1>
+            <form class="checkout-form">
+                <fieldset>
+                    <legend>Informações de Contato</legend>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço de Entrega</legend>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações de Pagamento</legend>
+                    <label for="cartao">Número do Cartão:</label>
+                    <input type="text" id="cartao" name="cartao" required>
+
+                    <label for="validade">Validade:</label>
+                    <input type="text" id="validade" name="validade" placeholder="MM/AA" required>
+
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </fieldset>
+
+                <button type="submit">Confirmar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vendrâmico. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
